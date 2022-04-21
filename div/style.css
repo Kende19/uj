@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+.container{
+    background-color: blue;
+    width: 800px;
+    height: 400px;
+}
+.box1{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 100px ;
+}
+
+.box2{
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 100px;
+}
+.box1:hover {
+    background-color: black;
+}
+.box2:hover{
+    background-color:orange;
+}
+

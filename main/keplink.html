@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="hu">
+   <title>Képlink</title>
+<body style="background-color: aquamarine;">
+
+    <style>
+        body {
+          margin: 0;
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidebar {
+          margin: 0;
+          padding: 0;
+          width: 200px;
+          background-color: #f1f1f1;
+          position: fixed;
+          height: 100%;
+          overflow: auto;
+        }
+        
+        .sidebar a {
+          display: block;
+          color: black;
+          padding: 16px;
+          text-decoration: none;
+        }
+         
+        .sidebar a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        
+        .sidebar a:hover:not(.active) {
+          background-color: #555;
+          color: white;
+        }
+        
+        div.content {
+          margin-left: 200px;
+          padding: 1px 16px;
+          height: 1000px;
+        }
+        
+        @media screen and (max-width: 700px) {
+          .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+          }
+          .sidebar a {float: left;}
+          div.content {margin-left: 0;}
+        }
+        
+        @media screen and (max-width: 400px) {
+          .sidebar a {
+            text-align: center;
+            float: none;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="sidebar">
+          <a class="active href="keplink.html">Főoldal</a>
+          <a href="keplink.html">1. feladat</a>
+          <a href="listak.html">2. feladat</a>
+          <a href="orarend.html">3. feladat </a>
+        </div>
+        
+        <div class="content">
+    <h1>Dudás Kende</h1>
+    <h2>Képlink feladat</h2>
+    <a href="https://hu.wikipedia.org/wiki/Medvef%C3%A9l%C3%A9k">
+
+<img src="https://cdn.hellovidek.hu/images/site/articles/lead/2021/03/1616841307-OpL0xc2mX_md.jpg" alt="Medve" width="50%">
+
+    </a>
+    <footer>
+        <h2>Dudás Kende</h2>
+        <p>Elérhetőségek:<br>
+        <a href="dudask@kkszki.hu">dudask@kkszki.hu</a></p>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/gyros-souvlaki-wraps-pita-bread-with-chicken-potatoes-tzatziki-sauce-ingredients-background_79830-1781.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myDiv {
+    border: 3px outset rgb(214, 214, 214);
+    background-color: rgb(214, 214, 214);    
+    text-align: center;
+    width: 35%;
+  }

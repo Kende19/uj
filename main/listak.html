@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="hu">
+   <title>Listák</title>
+<body style="background-color: aquamarine;">
+
+    <style>
+        body {
+          margin: 0;
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidebar {
+          margin: 0;
+          padding: 0;
+          width: 200px;
+          background-color: #f1f1f1;
+          position: fixed;
+          height: 100%;
+          overflow: auto;
+        }
+        
+        .sidebar a {
+          display: block;
+          color: black;
+          padding: 16px;
+          text-decoration: none;
+        }
+         
+        .sidebar a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        
+        .sidebar a:hover:not(.active) {
+          background-color: #555;
+          color: white;
+        }
+        
+        div.content {
+          margin-left: 200px;
+          padding: 1px 16px;
+          height: 1000px;
+        }
+        
+        @media screen and (max-width: 700px) {
+          .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+          }
+          .sidebar a {float: left;}
+          div.content {margin-left: 0;}
+        }
+        
+        @media screen and (max-width: 400px) {
+          .sidebar a {
+            text-align: center;
+            float: none;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="sidebar">
+          <a class="active href="listak_old.html">Főoldal</a>
+          <a href="keplink.html">1. feladat</a>
+          <a href="listak.html">2. feladat</a>
+          <a href="orarend.html">3. feladat </a>
+          
+        </div>
+        
+        <div class="content">
+
+    <h1> Dudás Kende</h1>
+    <h2>Listák</h2>
+
+    <p>A kedvenc tantárgyaim:</p>
+    <ol>
+        <li style="color: blue;">IKT</li>
+        <li style="color: crimson;">Digitális Kultúra</li>
+        <li style="color: green;">Programozás</li>
+    </ol>
+
+    <p>A kedvenc szabadidős tevékenységeim:</p>
+    <ul>
+        <li style="background-color: green;">Számitógépezés</li>
+        <li style="background-color: red;">Edzés</li>
+        <li style="background-color: yellow;">Foci</li>
+    </ul>
+    <footer>
+        <h2>Dudás Kende</h2>
+        <p>Elérhetőségek:<br>
+        <a href="dudask@kkszki.hu">dudask@kkszki.hu</a></p>
+      </footer>
+</body>
+</html>

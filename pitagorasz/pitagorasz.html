@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=2, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function szamol() {
+            eredmeny.value = Math.sqrt(a_old.value*a_old.value+b_old.value*b_old.value)
+        }
+    </script>
+</head>
+<body "background-color: 'gray';">
+ 
+<h1>Pitagorasz</h1>
+<img src="https://www.nkp.hu/tankonyv/matematika_8//img/image3.fejezet/8TK_03_11abra.png?max_width=2048" width="30%">
+ 
+<fieldset style="background-color: powderblue;">
+<legend style="background-color: aqua;">Pitagorasz kalkulátor</legend>
+    <br><input id="a_old" type="number" placeholder="a oldal"></br>
+    <br><input id="b_old" type="number" placeholder="b oldal"></br>
+    <br><input id="eredmeny" type="text" readonly placeholder="eredmény"></br>
+    <br><button onclick="szamol()">Kiszámol <img src="https://www.nkp.hu/tankonyv/matematika_8//img/image3.fejezet/8TK_03_11abra.png?max_width=2048" width="20px"></button></br>
+</fieldset>
+ 
+ 
+</body>
+</html>
